@@ -1,0 +1,24 @@
+.swiper-container {
+  width: 100%;
+  height: 300px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+}
+
+.serie-description{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: .5rem 3rem;
+  bottom: 0;
+  width: 100%;
+  /* height: 50%; */
+}
+
+.swiper-slide {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

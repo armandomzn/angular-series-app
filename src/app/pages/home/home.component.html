@@ -1,0 +1,15 @@
+<!-- En el HomeComponent estamos utilizando componentes externos, importandolos al modulo principal -->
+<!--
+SlideShow
+SeriesPosterGrid
+Navbar
+ -->
+<h1 class="mb-3">Cartelera</h1>
+<div *ngIf="series.length > 0">
+  <app-slideshow [series]="seriesSlideshow" [cargando]="cargando"></app-slideshow>
+</div>
+
+<h2 class="my-3">Series</h2>
+<div class="container m-3">
+    <app-series-poster-grid [series]="series" *ngIf="series.length > 0"></app-series-poster-grid>
+</div>

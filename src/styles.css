@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: #FF006E;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: white;
+}
+.btn-pink{
+
+  color: white;
+  transition: all .2s ease-in-out;
+  background-color: #8338EC;
+  border: 1px solid white;
+}
+.btn-pink:hover{
+  background-color: #FF006E;
+  color: white;
+}
